@@ -6,7 +6,7 @@ import './App.css';
 class App extends React.Component {
 
   state = { listA: { todos: [], status: { total: 0, remains: 0 } }, listB: { todos: [], status: { total: 0, remains: 0 } }, listC: { todos: [], status: { total: 0, remains: 0 } } };
-  title = "Dragable  Todo Lists";
+  title = "Draggable  Todo Lists";
 
   addTodo = (listID, todo) => {
     const list = { ...this.getListByID(listID) };
